@@ -4,7 +4,7 @@
   "description": "little user application",
   "main": "http_server.js",
   "scripts": {
-    "start": "http_server.js",
+    "start": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm install"
   },
