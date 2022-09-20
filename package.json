@@ -8,6 +8,11 @@
     "build": "npm install",
     "start": "node http_server.js"
   },
+
+  
+  "keywords": [
+    "heroku"
+  ],
   
   "author": "Carlos",
   "license": "ISC",
