@@ -5,7 +5,8 @@
   "main": "http_server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install"
+    "build": "npm install",
+    "start": "node http_server.js"
   },
   "keywords": [
     "heroku"
