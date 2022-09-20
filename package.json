@@ -8,11 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm install"
   },
-
   "keywords": [
     "heroku"
   ],
-  
   "author": "Carlos",
   "license": "ISC",
   "dependencies": {
@@ -22,9 +20,7 @@
     "faker": "^5.1.0",
     "lowdb": "^1.0.0"
   },
-
   "engines": {
     "node": "16.8.0"
   }
-
 }
