@@ -59,14 +59,8 @@ app.post("/add", function (req, res) {
 });
 
 //start server
-// app.listen(3001, function () {
-//   console.log("Running On Port 3001");
-// });
+app.listen(3001, function () {
+  console.log("Running On Port 3001");
+});
 
-let port = process.env.PORT;
-if (port == null || port == "") {
-  port = 8000;
-  console.log(`Running On Port ${port}`);
-}
-app.listen(port);
 
