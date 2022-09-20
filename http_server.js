@@ -6,6 +6,7 @@ const adapter = new fs("db.json");
 const db = low(adapter);
 const { faker } = require("@faker-js/faker");
 const cors = require('cors')
+let port = process.env.PORT || 3000;
 
 //cors security
 app.use(cors());
@@ -59,8 +60,8 @@ app.post("/add", function (req, res) {
 });
 
 //start server
-app.listen(3001, function () {
-  console.log("Running On Port 3001");
+app.listen(port, function () {
+  console.log(`Running on port ${port}`);
 });
 
 
