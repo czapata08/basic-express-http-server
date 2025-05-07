@@ -42,8 +42,9 @@ This project is a simple Node.js backend built with [Express](https://expressjs.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/czapata08/App20.git
-   cd App20
+   git clone https://github.com/czapata08/basic-express-http-server.git
+   cd basic-express-http-server
+   
 Install dependencies:
 
 bash
