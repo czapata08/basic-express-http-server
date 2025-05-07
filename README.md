@@ -20,7 +20,6 @@ This project is a simple Node.js backend built with [Express](https://expressjs.
 
 ## 📁 Project Structure
 
-.
 ├── public/ # Static files served to the client
 ├── db.json # Mock database file
 ├── http_server.js # Main server file
